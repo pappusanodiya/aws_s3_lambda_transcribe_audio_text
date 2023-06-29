@@ -23,7 +23,7 @@ def lambda_handler(event, context):
                     Media={
                         'MediaFileUri': url,
                             },
-                    OutputBucketName=bucketname,
+                    OutputBucketName="myoutputbucket1234",
                     
                     OutputKey="myaudiojob" + "-" + str(myuuid) + ".json"
                     )
